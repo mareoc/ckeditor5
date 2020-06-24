@@ -1,25 +1,9 @@
 {
-  "name": "ckeditor5",
-  "version": "20.0.0",
-  "description": "The development environment of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@octogroup/ckeditor5",
+  "version": "1.0.0",
+  "description": "Includes custom builds for OCTO",
   "private": true,
-  "keywords": [
-    "ckeditor",
-    "ckeditor5",
-    "ckeditor 5",
-    "wysiwyg",
-    "rich text",
-    "editor",
-    "html",
-    "contentEditable",
-    "editing",
-    "operational transformation",
-    "ot",
-    "collaboration",
-    "collaborative",
-    "real-time",
-    "framework"
-  ],
+  "keywords": [],
   "dependencies": {
     "@ckeditor/ckeditor-cloud-services-core": "^20.0.0",
     "@ckeditor/ckeditor5-adapter-ckfinder": "^20.0.0",
@@ -116,13 +100,13 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Nick Wehner <nick@octogroup.org>",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": "https://github.com/mareoc/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git"
+    "url": "https://github.com/mareoc/ckeditor5"
   },
   "scripts": {
     "lint": "eslint --quiet '**/*.js'",
